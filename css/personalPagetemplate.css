@@ -1,409 +1,459 @@
 @charset "utf-8";
 /* CSS Document */
 html {
-	box-sizing:border-box;
+    box-sizing: border-box;
 }
+
 body, html {
-	height: 100%;
-	margin: 0;
-	background-color: white;
-	font-family: "Raleway";
-	line-height: 1.8;
-	color:black;
+    height: 100%;
+    margin: 0;
+    background-color: white;
+    font-family: "Raleway";
+    line-height: 1.8;
+    color: black;
 }
+
 .container {
-	padding: 64px 16px;
-	margin: auto;
-	max-width: 980px;
+    padding: 64px 16px;
+    margin: auto;
+    max-width: 980px;
 }
+
 /* navigation bar */
 .navbar {
-	position: fixed;
-	width: 100%;
-	top: 0;
-	overflow: visible;
-	z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: visible;
+    z-index: 1;
 }
+
 .top {
-	width: 100%;
-	overflow: hidden;
+    width: 100%;
+    overflow: hidden;
 }
-.top-card{
-	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+
+.top-card {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
+
 @keyframes animatetop {
-	from {top: -300px; opacity: 0}
-	to {top: 0; opacity: 1}
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
 }
+
 .top-animate {
-	position: relative;
-	animation: animatetop 0.4s;
+    position: relative;
+    animation: animatetop 0.4s;
 }
+
 .top-color {
-	background-color: white!important;
-	color:black!important;
+    background-color: white !important;
 }
+
+.top-color > a {
+    color: black;
+}
+
 .white {
-	color:white;
+    color: white;
 }
+
 .bold {
-	font-weight:bolder;
+    font-weight: bolder;
 }
-.top a{
-	display: inline-block;
-	float: left;
-	color:inherit;
-	text-decoration: none;
-	padding: 8px 16px;
+
+.top a {
+    display: inline-block;
+    float: left;
+    color: inherit;
+    text-decoration: none;
+    padding: 8px 16px;
 }
+
 /* backgrounds */
 .banner {
-	background-image: url(../images/banner.jpg);
-	height: 100%;
-	background-attachment:fixed;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+    background-image: url(../images/banner.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
+
 .banner1 {
-	background-image:url(../images/viena_bg.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+    background-image: url(../images/viena_bg.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
+
 .banner2 {
-	background-image:url(../images/prague_bg.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+    background-image: url(../images/prague_bg.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
+
 .banner3 {
-	background-image:url(../images/london_bg.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+    background-image: url(../images/london_bg.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
+
 .banner4 {
-	background-image:url(../images/paris_bg.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+    background-image: url(../images/paris_bg.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
+
 .banner5 {
-	background-image: url(../images/milano_bg.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+    background-image: url(../images/milano_bg.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
+
 .banner6 {
-	background-image: url(../images/munchen_bg.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+    background-image: url(../images/munchen_bg.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
+
 .banner7 {
-	background-image: url(../images/atena_bg.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+    background-image: url(../images/atena_bg.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
+
 .banner8 {
-	background-image: url(../images/madrid_bg.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+    background-image: url(../images/madrid_bg.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
+
 .banner9 {
-	background-image: url(../images/amsterdam_bg.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+    background-image: url(../images/amsterdam_bg.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
+
 /* titles */
 .center {
-	text-align: center;
+    text-align: center;
 }
+
 .title {
-	letter-spacing: 5px;
-	margin: 20px 0;
+    letter-spacing: 5px;
+    margin: 20px 0;
 }
 
 .half-padding {
-	width: 50%;
-	padding: 12px 24px!important;
-	display: flex;
+    width: 50%;
+    padding: 12px 24px !important;
+    display: flex;
 }
+
 .opacity {
-	opacity: 0.6;
+    opacity: 0.6;
 }
+
 .opacity:hover {
-	opacity: 1;
+    opacity: 1;
 }
+
 .logo {
-	color: white;
-	background-color: black;
-	font-family: "Maven Pro";
-	font-size: 24px;
-	letter-spacing: 10px;
-	text-align: center!important;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	position: absolute;
-	padding: 12px 24px!important;
+    color: white;
+    background-color: black;
+    font-family: "Maven Pro";
+    font-size: 24px;
+    letter-spacing: 10px;
+    text-align: center !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 12px 24px !important;
 }
-.deco a{
-	text-decoration: none;
-	color: white!important;
+
+.deco a {
+    text-decoration: none;
+    color: white !important;
 }
+
 .title1 {
-	color: white;
-	background-color: black;
-	font-family: "Maven Pro";
-	font-size: 24px;
-	letter-spacing: 10px;
-	text-align: center!important;
-	top: 16%;
-	left: 15.5%;
-	transform: translate(-50%, -50%);
-	position: absolute;
-	padding: 12px 24px!important;
+    color: white;
+    background-color: black;
+    font-family: "Maven Pro";
+    font-size: 24px;
+    letter-spacing: 10px;
+    text-align: center !important;
+    top: 16%;
+    left: 15.5%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 12px 24px !important;
 }
+
 .title2 {
-	color: white;
-	background-color: black;
-	font-family: "Maven Pro";
-	font-size: 24px;
-	letter-spacing: 10px;
-	text-align: center!important;
-	top: 16%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	position: absolute;
-	padding: 12px 24px!important;
+    color: white;
+    background-color: black;
+    font-family: "Maven Pro";
+    font-size: 24px;
+    letter-spacing: 10px;
+    text-align: center !important;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 12px 24px !important;
 }
+
 .title3 {
-	color: white;
-	background-color: black;
-	font-family: "Maven Pro";
-	font-size: 24px;
-	letter-spacing: 10px;
-	text-align: center!important;
-	top: 16%;
-	left: 84.5%;
-	transform: translate(-50%, -50%);
-	position: absolute;
-	padding: 12px 24px!important;
+    color: white;
+    background-color: black;
+    font-family: "Maven Pro";
+    font-size: 24px;
+    letter-spacing: 10px;
+    text-align: center !important;
+    top: 16%;
+    left: 84.5%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 12px 24px !important;
 }
+
 .title4 {
-	color: white;
-	background-color: black;
-	font-family: "Maven Pro";
-	font-size: 24px;
-	letter-spacing: 10px;
-	text-align: center!important;
-	top: 52%;
-	left: 15%;
-	transform: translate(-50%, -50%);
-	position: absolute;
-	padding: 12px 24px!important;
+    color: white;
+    background-color: black;
+    font-family: "Maven Pro";
+    font-size: 24px;
+    letter-spacing: 10px;
+    text-align: center !important;
+    top: 52%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 12px 24px !important;
 }
+
 .title5 {
-	color: white;
-	background-color: black;
-	font-family: "Maven Pro";
-	font-size: 24px;
-	letter-spacing: 10px;
-	text-align: center!important;
-	top: 52%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	position: absolute;
-	padding: 12px 24px!important;
+    color: white;
+    background-color: black;
+    font-family: "Maven Pro";
+    font-size: 24px;
+    letter-spacing: 10px;
+    text-align: center !important;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 12px 24px !important;
 }
+
 .title6 {
-	color: white;
-	background-color: black;
-	font-family: "Maven Pro";
-	font-size: 24px;
-	letter-spacing: 10px;
-	text-align: center!important;
-	top: 52%;
-	left: 84%;
-	transform: translate(-50%, -50%);
-	position: absolute;
-	padding: 12px 24px!important;
+    color: white;
+    background-color: black;
+    font-family: "Maven Pro";
+    font-size: 24px;
+    letter-spacing: 10px;
+    text-align: center !important;
+    top: 52%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 12px 24px !important;
 }
+
 .title7 {
-	color: white;
-	background-color: black;
-	font-family: "Maven Pro";
-	font-size: 24px;
-	letter-spacing: 10px;
-	text-align: center!important;
-	top: 85%;
-	left: 15.5%;
-	transform: translate(-50%, -50%);
-	position: absolute;
-	padding: 12px 24px!important;
+    color: white;
+    background-color: black;
+    font-family: "Maven Pro";
+    font-size: 24px;
+    letter-spacing: 10px;
+    text-align: center !important;
+    top: 85%;
+    left: 15.5%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 12px 24px !important;
 }
+
 .title8 {
-	color: white;
-	background-color: black;
-	font-family: "Maven Pro";
-	font-size: 24px;
-	letter-spacing: 10px;
-	text-align: center!important;
-	top: 85%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	position: absolute;
-	padding: 12px 24px!important;
+    color: white;
+    background-color: black;
+    font-family: "Maven Pro";
+    font-size: 24px;
+    letter-spacing: 10px;
+    text-align: center !important;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 12px 24px !important;
 }
+
 .title9 {
-	color: white;
-	background-color: black;
-	font-family: "Maven Pro";
-	font-size: 24px;
-	letter-spacing: 10px;
-	text-align: center!important;
-	top: 85%;
-	left: 84%;
-	transform: translate(-50%, -50%);
-	position: absolute;
-	padding: 12px 24px!important;
+    color: white;
+    background-color: black;
+    font-family: "Maven Pro";
+    font-size: 24px;
+    letter-spacing: 10px;
+    text-align: center !important;
+    top: 85%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 12px 24px !important;
 }
 
 /* backies */
 .mun {
-	background-image:url(../images/primarie_detaliu.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
+    background-image: url(../images/primarie_detaliu.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .vie {
-	background-image:url(../images/auditoriu.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
+    background-image: url(../images/auditoriu.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .lon {
-	background-image:url(../images/simona.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
+    background-image: url(../images/simona.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .ams {
-	background-image:url(../images/interior.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
+    background-image: url(../images/interior.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .par {
-	background-image:url(../images/vitraliu.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
+    background-image: url(../images/vitraliu.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .ath {
-	background-image:url(../images/stadion_atena.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
+    background-image: url(../images/stadion_atena.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .pra {
-	background-image:url(../images/ceas.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
+    background-image: url(../images/ceas.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .mil {
-	background-image:url(../images/cupola.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
+    background-image: url(../images/cupola.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .mad {
-	background-image:url(../images/rainbow.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
+    background-image: url(../images/rainbow.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
 .gallery {
-	clear: both;
-	display: inline-block;
-	width: 100%;
-	background-color: #FFFFFF;
-	/* [disabled]min-width: 400px;
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    background-color: #FFFFFF;
+    /* [disabled]min-width: 400px;
 */
-	padding-bottom: 35px;
-	padding-top: 0px;
-	margin-top: -5px;
-	margin-bottom: 0px;
+    padding-bottom: 35px;
+    padding-top: 0px;
+    margin-top: -5px;
+    margin-bottom: 0px;
 }
+
 .thumbnail {
-	width: 25%;
-	text-align: center;
-	float: left;
-	margin-top: 35px;
+    width: 25%;
+    text-align: center;
+    float: left;
+    margin-top: 35px;
 }
+
 .gallery .thumbnail h4 {
-	margin-top: 5px;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	margin-left: 5px;
-	color: grey;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    color: grey;
 }
 
 
 /*text boxes*/
 .text_box {
-	width: 100%;
-	text-align: center;
-	font-weight: lighter;
-	line-height: 25px;
-	float: left;
-	color: #3D3C3C;
-	font-family:"Permanent Marker";
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 25px;
+    float: left;
+    color: #3D3C3C;
+    font-family: "Permanent Marker";
 }
+
 .left {
-	padding-left:136px;
-	padding-right:126px;
+    padding-left: 136px;
+    padding-right: 126px;
 }
+
 .tab {
     overflow: hidden;
     border: 1px solid #020E01;
     background-color: #082602;
 }
+
 .tab button {
-    background-color:inherit;
+    background-color: inherit;
     float: left;
     border: none;
     outline: none;
@@ -411,123 +461,135 @@ body, html {
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
-	font-family: "Raleway";
-	color:#F3FFF0;
+    font-family: "Raleway";
+    color: #F3FFF0;
 }
+
 .tab button:hover {
     background-color: #020900;
 }
+
 .tab button.active {
     background-color: #020E01;
 }
+
 .tabcontent {
     display: none;
     padding: 6px 12px;
     border: 1px solid #020e01;
     border-top: none;
-	color: #717070;
+    color: #717070;
 }
-
 
 
 /* photo album */
 .row {
-  	display: flex;
-}
-.column {
-  	flex: 33.33%;
-  	padding: 5px;
-}
-/* trigger */
-.myImg {
-  	border-radius: 5px;
-  	cursor: pointer;
-  	transition: 0.3s;
+    display: flex;
 }
 
-.myImg:hover {opacity: 0.7;}
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+/* trigger */
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg:hover {
+    opacity: 0.7;
+}
 
 /* modal (background) */
 .modal {
-  	display: none; 
-  	position: fixed; 
-  	z-index: 1; 
-  	padding-top: 100px; 
-  	left: 0;
-  	top: 0;
-  	width: 100%; 
-  	height: 100%; 
-  	background-color: rgb(0,0,0); 
-  	background-color: rgba(0,0,0,0.8); 
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* image */
 .modal-content {
-  	margin: auto;
-  	display: block;
-  	width: 80%;
-  	max-width: 700px;
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
- 	margin: auto;
-  	display: block;
-  	width: 80%;
-  	max-width: 700px;
-  	text-align: center;
-  	color: #ccc;
-  	padding: 10px 0;
-  	height: 150px;
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
 }
 
 /* Add Animation - Zoom in the Modal */
 .modal-content, #caption {
-  	animation-name: zoom;
-  	animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
 }
 
 @keyframes zoom {
-  	from {transform:scale(0)}
-  	to {transform:scale(1)}
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
 }
 
 /* The Close Button */
 .close {
-  	position: absolute;
-  	top: 0;
-  	right: 0;
-  	color: #f1f1f1;
-  	font-size: 30px;
-  	font-weight: bold;
-  	transition: 0.3s;
-  	padding: 8px 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #f1f1f1;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    padding: 8px 20px;
 }
 
 .close:hover,
 .close:focus {
-  	color: black;
-  	background-color: gainsboro;
-  	text-decoration: none;
-  	cursor: pointer;
+    color: black;
+    background-color: gainsboro;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
 }
 
 
 /*Slideshow */
-* {box-sizing:border-box}
+* {
+    box-sizing: border-box
+}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
 
 /* Hide the images by default */
@@ -537,167 +599,188 @@ body, html {
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: whitesmoke;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: black;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0%;
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0%;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor:pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+    background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
-
 
 
 /*another slideshow */
 .content {
-	margin-left: auto;
-	margin-right: auto;
-	max-width:980px;
-}
-.row-padding {
-	padding: 0 8px;
-	display: table;
-}
-.col {
-	width: 33.33%;
-	float:left;
-	padding: 0 8px;
-}
-.demo {
-	transition: 0.3s;
-}
-.section {
-	margin-top:16px!important;
-	margin-bottom:16px!important;
-}
-.slide-opacity{
-	opacity: 0.4;
-}
-.slide-opacity-off, .hover-slide-opacity-off:hover{
-	opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
 }
 
+.row-padding {
+    padding: 0 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    width: 33.33%;
+    float: left;
+    padding: 0 8px;
+}
+
+.demo {
+    transition: 0.3s;
+}
+
+.section {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+
+.slide-opacity {
+    opacity: 0.4;
+}
+
+.slide-opacity-off, .hover-slide-opacity-off:hover {
+    opacity: 1;
+}
 
 
 /*footer*/
 .footer {
-	color: white;
-	background-color: black;
-	padding: 64px 0px!important;
+    color: white;
+    background-color: black;
+    padding: 64px 0px !important;
 }
+
 .button {
-	display: inline-block;
-	padding: 8px 16px;
-	vertical-align: middle;
-	overflow: hidden;
-	text-decoration: none;
-	color: black;
-	background-color: lightgray;
-	text-align: center;
-	cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+    background-color: lightgray;
+    text-align: center;
+    cursor: pointer;
 }
 
 .pad {
-	padding-left:200px;
-}
-.space {
-	margin-bottom: 20px;
+    padding-left: 200px;
 }
 
-@media (max-width:768px) {
-	.thumbnail {
-		width: 50%;
-	}
-	.half-padding {
-		width:95%;
-	}
-	figure {
-		-webkit-margin-start: 2px;
-		-webkit-margin-end:2px;
-		-webkit-margin-before:2px;
-		-webkit-margin-after:2px;
-	}
-	figure img {
-		max-width:95%;
-	}
-	iframe {
-		max-width:95%;
-	}
-	.pad {
-		padding-left:100px;
-	}
+.space {
+    margin-bottom: 20px;
 }
-@media (max-width:500px){
-	.left {
-		padding: 0 20%;
-	}
+
+@media (max-width: 768px) {
+    .thumbnail {
+        width: 50%;
+    }
+
+    .half-padding {
+        width: 95%;
+    }
+
+    figure {
+        -webkit-margin-start: 2px;
+        -webkit-margin-end: 2px;
+        -webkit-margin-before: 2px;
+        -webkit-margin-after: 2px;
+    }
+
+    figure img {
+        max-width: 95%;
+    }
+
+    iframe {
+        max-width: 95%;
+    }
+
+    .pad {
+        padding-left: 100px;
+    }
+}
+
+@media (max-width: 500px) {
+    .left {
+        padding: 0 20%;
+    }
 }

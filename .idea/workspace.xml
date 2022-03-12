@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ceb08d6d-b300-4da3-b22b-314699225bbc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/amsterdam.html" beforeDir="false" afterPath="$PROJECT_DIR$/amsterdam.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atestat.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/athens.html" beforeDir="false" afterPath="$PROJECT_DIR$/athens.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/personalPagetemplate.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/personalPagetemplate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/london.html" beforeDir="false" afterPath="$PROJECT_DIR$/london.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/madrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/madrid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/milan.html" beforeDir="false" afterPath="$PROJECT_DIR$/milan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/munich.html" beforeDir="false" afterPath="$PROJECT_DIR$/munich.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paris.html" beforeDir="false" afterPath="$PROJECT_DIR$/paris.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prague.html" beforeDir="false" afterPath="$PROJECT_DIR$/prague.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vienna.html" beforeDir="false" afterPath="$PROJECT_DIR$/vienna.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26IX4wqCauTESdeQXpWknHeg2su" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ceb08d6d-b300-4da3-b22b-314699225bbc" name="Changes" comment="" />
+      <created>1647111890524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647111890524</updated>
+      <workItem from="1647111893110" duration="311000" />
+      <workItem from="1647112263600" duration="380000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

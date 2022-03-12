@@ -1,39 +1,42 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Frontpage</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="css/personalPagetemplate.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Maven+Pro|Raleway" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Frontpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/personalPagetemplate.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
 <!-- Banner -->
 <div class="banner" id="top">
-	<span class="title1 opacity deco"><a href="vienna.html">VIENA</a></span>
-	<span class="title2 opacity deco"><a href="prague.html">PRAGA</a></span>
-	<span class="title3 opacity deco"><a href="london.html">LONDRA</a></span>
-	<span class="title4 opacity deco"><a href="paris.html">PARIS</a></span>
-	<span class="title5 opacity deco"><a href="milan.html">MILANO</a></span>
-	<span class="title6 opacity deco"><a href="munich.html">MÜNCHEN</a></span>
-	<span class="title7 opacity deco"><a href="athens.html">ATENA</a></span>
-	<span class="title8 opacity deco"><a href="madrid.html">MADRID</a></span>
-	<span class="title9 opacity deco"><a href="amsterdam.html">AMSTERDAM</a></span>
+    <span class="title1 opacity deco"><a href="vienna.html">VIENA</a></span>
+    <span class="title2 opacity deco"><a href="prague.html">PRAGA</a></span>
+    <span class="title3 opacity deco"><a href="london.html">LONDRA</a></span>
+    <span class="title4 opacity deco"><a href="paris.html">PARIS</a></span>
+    <span class="title5 opacity deco"><a href="milan.html">MILANO</a></span>
+    <span class="title6 opacity deco"><a href="munich.html">MÜNCHEN</a></span>
+    <span class="title7 opacity deco"><a href="athens.html">ATENA</a></span>
+    <span class="title8 opacity deco"><a href="madrid.html">MADRID</a></span>
+    <span class="title9 opacity deco"><a href="amsterdam.html">AMSTERDAM</a></span>
 </div>
 </body>
 <script>
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var bar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        bar.className = "top" + " top-card" + " top-animate" + " top-color";
-    } else {
-        bar.className = bar.className.replace(" top-card top-animate top-color", "");
+    window.onscroll = function () {
+        myFunction()
+    };
+
+    function myFunction() {
+        var bar = document.getElementById("myNavbar");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            bar.className = "top" + " top-card" + " top-animate" + " top-color";
+        } else {
+            bar.className = bar.className.replace(" top-card top-animate top-color", "");
+        }
     }
-}
 </script>
 </html>
